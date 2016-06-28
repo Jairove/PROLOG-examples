@@ -1,0 +1,9 @@
+chico(antonio).
+chico(juan).
+chico(luis).
+chico(pedro).
+chica(ana).
+chica(eva).
+chica(isabel).
+chica(maria).
+posible_pareja(X,Y):-chico(X),chica(Y).
